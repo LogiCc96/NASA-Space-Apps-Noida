@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <link rel="shortcut icon" href="assets/asset 42.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>EMIT</title>
+  </head>
+
+  <body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+      <div class="container">
+        
+      </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <div class="nav-bar-section">
+      <div class="container nav-bar flex">
+        <a href="#" class="company-logo flex">
+          <img src="emit.jpg" alt="company logo" width="180px" />
+        </a>
+        <div class="menu" id="menu-link">
+          <ul class="flex">
+            <li><a href="#" class="hover-link">About</a></li>
+            <li><a href="applications.html" class="hover-link">Applications</li>
+            <li><a href="#" class="hover-link">Missions</a></li>
+            <li><a href="#" class="hover-link">Accomplishment</a></li>
+            <li><a href="#" class="hover-link primary-btn">Sign up</a></li>
+          </ul>
+        </div>
+        <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+          
+        </a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container header-section flex">
+        <div class="header-left">
+          <h1>EMIT For the Future !</h1>
+          <p>
+            EMIT (earth surface mineral dust source investigation) is an <br />
+            ISS attached earth ventures- instrument(EVI-4) mission to determine
+            the mineral composition on natural sources that produce dust
+            aerosols around the world. <br />
+            The Mission will map the surface <br />
+            mineralogy of arid dust source regions via imaging spectroscopy in
+            the visible and shortwave infrared. By measuring in detail which
+            minerals make up the dust emmit will help to answer the essential
+            question of whether this type of aerosol warms or cools the
+            atmosphere.
+          </p>
+          <a href="#" class="primary-btn">About Mission !</a>
+        </div>
+        
+        <div class="header-right">
+          <img src="img2.png" alt="hero image" width="100%" />
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Companies Section -->
+    <section class="companies-section">
+      <div class="container"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="container">
+        <div class="features-header">
+          
+        </div>
+        <span id="visuals">
+            EMIT 3D Visuals
+        </span>
+        <div>
+            <video  id="Emit" autoplay muted loop src="vdo.mp4"></video>
+        </div>
+        
+        
+
+        <p id="objective">
+            The first objective is to deliver a new improved assessment of the heating and cooling effects of mineral dust in the Earth’s atmosphere. The second objective is to predict how future climate scenarios might change the amount and type of mineral dust emitted into the Earth’s atmosphere.
+        </p> 
+
+        <div>
+            <img id="ttt"  src="img4.jpg" alt="">
+        </div>
+
+        For the first time, the NASA Earth Surface Mineral Dust Source Investigation (EMIT) mission will comprehensively measure the mineral composition of Earth’s dust source regions to help scientists understand how they heat or cool our planet. EMIT’s science objectives are specifically focused on better understanding this heating and cooling effect, which is called radiative forcing. The first objective is to deliver a new improved assessment of the heating and cooling effects of mineral dust in the Earth’s atmosphere. The second objective is to predict how future climate scenarios might change the amount and type of mineral dust emitted into the Earth’s atmosphere.
+
+
+        </div>
+      </div>
+    </section>
+
+    <div class="mission">
+
+        <h1>Missions</h1>
+        <p>
+            Scientists know that most of the mineral dust transported in Earth’s atmosphere comes from arid, or dry, regions around the globe. But they aren’t certain what types of minerals the wind carries from those regions. Different minerals affect the environment in different ways. So scientists need to know what minerals are in dust source regions if they’re going to better understand how the dust is affecting the Earth. EMIT will provide this missing dust source information.
+
+The data will allow scientists to create a new mineral map of Earth’s dust-producing regions. The map will improve computer models that scientists will use to assess the regional and global heating and cooling effects of mineral dust today and in the future.
+        </p>
+        
+            <img src="img5.jpg" alt=""><br>
+           
+
+    </div>
+
+    <div>
+        <img class="news" src="news.png" alt="">
+    </div>
+    <div class="newsletter">
+        <img src="emit.jpg" id="emitlogo"  alt="company logo" width="180px" />
+        <input font-family="Open Sans" placeholder="Enter your email" type="email" name="email" required="" class="sc-gZMcBi fZkdqY" value="">
+        <button type="button" class="btn btn-primary">Subscribe</button>      
+    </div>
+
+    <!-- Big Feature Sections -->
+
+
+    <script>
+      const menuLink = document.getElementById("menu-link");
+      const toggleBtn = document.getElementById("nav-toggle");
+
+      toggleBtn.addEventListener("click", () => {
+        menuLink.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
